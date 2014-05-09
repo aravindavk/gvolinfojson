@@ -5,15 +5,15 @@ A utility to convert xml output of gluster volume info to json.
 
 ## Install
 
-Download binary from [here](#) and copy to `/usr/local/bin`(or any other directory, which is available in PATH).
+Download binary from [here](https://github.com/aravindavk/gvolinfojson/releases/download/1.0/gvolinfojson) and copy to `/usr/local/bin`(or any other directory, which is available in PATH).
 
-    wget
+    wget https://github.com/aravindavk/gvolinfojson/releases/download/1.0/gvolinfojson
     sudo cp gvolinfojson /usr/local/bin/
     chmod +x /usr/local/bin/gvolinfojson
 
 If you have golang installed, then(make sure $GOPATH/bin is available in PATH)
 
-    go install github.com/aravindavk/gvolinfojson
+    go get github.com/aravindavk/gvolinfojson
 
 ## Usage
 
@@ -31,4 +31,4 @@ If you need to print pretty JSON output, then
 
 ## Blogs
 
-1. [gvolinfojson - A utility to convert xml output of gluster volume info to json](#)
+1. [gvolinfojson - A utility to convert xml output of gluster volume info to json](http://aravindavk.in/blog/gvolinfojson)
